@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,cyrillic-ext'); :root {
-    --main-background-color: #FFB6C1; --main-font-color: #DB0DBA; --heading-font-family: 'Lobster', cursive; }
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,cyrillic-ext');
+
+:root { 
+    --main-background-color: #FFB6C1;
+    --main-font-color: #DB0DBA;
+    --heading-font-family: 'Lobster', cursive; 
+}
 
 body {
     background-color: var(--main-background-color);
@@ -12,6 +17,7 @@ header h1.main-header {
     font-family: var(--heading-font-family);
     font-size: 60px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 @media (max-width: 850px) {
@@ -35,26 +41,15 @@ header .first-line {
 header .first-line h6 {
     margin: 20px;
     justify-content: flex-end;
+    color: rgb(20, 20, 21);
 }
 
 header #nav-tab a {
     font-family: var(--heading-font-family);
 }
 
-main #carouselExampleCaptions div h5 #text {
-    color: var(--main-font-color);
-}
-
-main #carouselExampleCaptions div p {
-    color: var(--main-font-color);
-}
-
-main div .modal-dialog .modal-sm div .modal-content p #phones {
-    font-size: xx-large ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #DB0DBA;
+header nav #navbarSupportedContent ul li a:hover {
+    color: white;
 }
 
 main div .main-button {
@@ -67,10 +62,30 @@ main div.main-button .button.btn-primary.btn-lg {
     margin: 15px;
 }
 
+.col-lg-4 p {
+    color: #272b30;
+}
+
+.col-md-7.order-md-2 h2 #olmed-woman span.text-muted {
+    padding-left: 30px;
+}
+
+.col-md-7 p.lead {
+    color: #272b30;
+}
+
 footer a img.image-logo {
     width: 30px;
     height: auto;
     margin-left: 15px;
+}
+
+footer p.logos {
+    color: #272b30;
+}
+
+footer .float-right a {
+    color: #272b30;
 }
 
 @media (max-width: 500px) {

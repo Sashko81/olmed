@@ -5,8 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>medical center OLMED</title>
-        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
         <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">
         <link rel="stylesheet" href="css/index.css">
     </head>
@@ -32,7 +30,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Послуги
-                    </a>
+                            </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#olmed-doctor-and-patient">Обстеження</a>
                                 <a class="dropdown-item" href="#olmed-woman">Консультація</a>
@@ -49,7 +47,7 @@
             </nav>
         </header>
         <div>
-            <div class="bd-example">
+            <div class="bd">
                 <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
@@ -59,24 +57,24 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="img/olmed.jpg" class="d-block w-100" alt="clinic olmed">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 id="text">клініка Олмед - це найкращий захист жіночого здоров'я</h5>
-                                <p id="text"></p>
+                            <div class="carousel-caption d-none d-md-block text-dark">
+                                <h5>клініка Олмед - це найкращий захист жіночого здоров'я</h5>
+                                <p></p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="img/olmed-examination.jpg" class="d-block w-100" alt="examination">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 id="text">ведення вагітності</h5>
-                                <p id="text">ведення вагітності від зачаття до пологів. 3D УЗД плоду на надсучасному обладнанні. Запис УЗД
+                            <div class="carousel-caption d-none d-md-block text-dark">
+                                <h5>ведення вагітності</h5>
+                                <p>ведення вагітності від зачаття до пологів. 3D УЗД плоду на надсучасному обладнанні. Запис УЗД
                             на cd або usb </p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/olmed-doctors.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 id="text">Досвідченні лікарі</h5>
-                                <p id="text">кращі акушери-гінекологи Львова дадуть кваліфіковану відповідь на будь-яке ваше запитання. Ми
+                            <img src="img/olmed-doctors.jpg" class="d-block w-100" alt="olmed doctors">
+                            <div class="carousel-caption d-none d-md-block text-dark">
+                                <h5>Досвідченні лікарі</h5>
+                                <p>кращі акушери-гінекологи Львова дадуть кваліфіковану відповідь на будь-яке ваше запитання. Ми
                             гарантуємо комплексний огляд та сучасний захист </p>
                             </div>
                         </div>
@@ -92,8 +90,8 @@
                 </div>
             </div>
             <div class="main-button text-center p-5">
-                <!-- Small modal -->
-                <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target=".bd-example-modal-sm">Записатись на прийом</button>
+                <!-- button modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-modal-sm">Записатись на прийом</button>
             </div>
         </div>
         <div class="container marketing">
@@ -101,31 +99,38 @@
                 <div class="col-lg-4">
                     <img src="img/olmed-logo1.jpg" alt="olmed-logo" title="olmed logo" class="width=50;">
                     <h2>Наші лікарі</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna molliseuismod. Nullam id dolor id nibh ultricies
-                vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
-                cursus magna.</p>
+                    <p>В клініці працюють тільки висококваліфіковані та практикуючі спеціалісти. 
+                        Відвідуючі всі актуальні конференції в Україні та світі, і постійно навчаючись,
+                        вони підтримують високі стандарти надання медичної та консультаційної допомоги
+                        жінці
+                    </p>
                     <p>
-                        <a class="btn btn-secondary" href="#" role="button">Детальніше &raquo;</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-modal-xl">Детальніше</button>
                     </p>
                 </div>
                 <div class="col-lg-4">
                     <img src="img/olmed-logo1.jpg" alt="olmed-logo" title="olmed logo" class="width=50;">
                     <h2>Партнерам</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
-                mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                condimentum nibh.</p>
+                    <p>Шановні колеги!
+                    </p>
+                    <p>Якщо ви уролог або акушер-гінеколог та вас цікавить 
+                        робота в нашому медичному центрі, ласкаво просимо до нас! 
+                        Беремо на стажування інтернів.
+                        Тисніть ДЕТАЛЬНІШЕ
+                    </p>
                     <p>
-                        <a class="btn btn-secondary" href="#" role="button">Детальніше &raquo;</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".doctor">Детальніше</button>
                     </p>
                 </div>
                 <div class="col-lg-4">
                     <img src="img/olmed-logo1.jpg" alt="olmed-logo" title="olmed logo" class="w-500">
                     <h2>Контакти</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-                ut fermentum massa justo sit.</p>
+                    <p>Наш медичний центр знаходиться у м. Львів по вул. Б. Хмельницького буд. 212 .
+                    Біля ТЦ ВАМ. Режим роботи: понеділок - п`ятниця з 9 до 16 години. 
+                    Натиснувши кнопку ДЕТАЛЬНІШЕ, ви зможете записатися на прийом в зручний для вас час
+                    </p>
                     <p>
-                        <a class="btn btn-secondary" href="#" role="button">Детальніше &raquo;</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-modal-sm">Детальніше &raquo;</button>
                     </p>
                 </div>
             </div>
@@ -151,9 +156,9 @@
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
                     <h2 id="olmed-woman" class="featurette-heading">
-                        <span class="text-muted">Жіноча консультація</span>
+                        <span class="text-muted ml-4">Жіноча консультація</span>
                     </h2>
-                    <p class="lead consult">Кваліфікована допомога у вирішенні будь-яких питань жіночого здоров`я. Лікування
+                    <p class="lead ml-4">Кваліфікована допомога у вирішенні будь-яких питань жіночого здоров`я. Лікування
                     запальних захворювань. Рекомендації по контрацепції. Консультаціяпартнера
                     Кваліфікована допомога у вирішенні будь-яких питань жіночого здоров`я. Лікування
                     запальних захворювань. Рекомендації по контрацепції. Консультаціяпартнера.
@@ -190,7 +195,6 @@
         <footer class="container">
             <p class="logos">
                 &copy;2008-2019 Olmed Company, Inc.
-            
                 <a href="https://www.facebook.com/medcenter.olmed/">
                     <img src="img/fb.png" alt="facebook logo" title="facebook" class="image-logo">
                 </a>
@@ -206,18 +210,48 @@
             </p>
         </footer>
         <!--modal window-->
-        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                    наші контакти:
-            
+        <div class="modal fade bd-modal-sm" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content text-white p-2">
+                    <h5>наші контакти:</h5>
                     <p id="phones">
                         +380970000001
-                <br>
+                    <br>
                         +380322000002
-                <br>Україна м. Львів вул. Б. Хмельницького,212
-            
+                    <br>Україна м. Львів вул. Б.Хмельницького,212
                     </p>
+                </div>
+            </div>
+        </div>
+        <!--modal window with shef`s photo-->
+        <div class="modal fade bd-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content p-2 d-flex">
+                    <div>
+                        <h5 class="d-flex justify-content-center">Директор медичного центру Олмед:
+                        </h5>
+                        <p class="d-flex justify-content-center">Забігайло Ольга Романівна
+                        </p>
+                        <p class="d-flex justify-content-center">
+                            <img class="" src="img/olmed-main.jpg" alt="shef of olmed" title="shef">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal window for specialists-->
+        <div class="modal fade bd-modal-xl doctor" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content p-2 d-flex">
+                    <div>
+                        <p class="d-flex justify-content-center">Готові до співпраці з комунальними поліклініками, стаціонарами та приватними клініками!
+                        </p>
+                        <p class="d-flex justify-content-center">по всім питанням звертатися за телефоном: +380970000005
+                        </p>
+                        <p class="d-flex justify-content-center">
+                            <img class="" src="img/olmed-doctors.jpg" alt="doctors of olmed" title="new doctors">
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
